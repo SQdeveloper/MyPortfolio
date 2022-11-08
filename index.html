@@ -11,10 +11,10 @@
     <header class="header">
         <h1 class="header__name">JEFFERSON SILVA</h1>
         <nav class="header__nav">
-            <a class="header__a" href="">Inicio</a>
-            <a class="header__a" href="">Sobre mí</a>
-            <a class="header__a" href="">Proyectos</a>
-            <a class="header__a" href="">Contacto</a>
+            <a class="header__a header__a-first" href="">Inicio</a>
+            <a class="header__a header__a-second" href="">Sobre mí</a>
+            <a class="header__a header__a-third" href="">Proyectos</a>
+            <a class="header__a header__a-fourth" href="">Contacto</a>
         </nav>
         <h1 class="header__portfolio">PORTFOLIO</h1>
     </header>
@@ -156,12 +156,18 @@
         <section class="contacto">
                 <h1 class="title contacto__title">Contacto</h1>
                 <form class="formulario" action="" method="GET">
-                    <label for="nombre">Nombre</label>
-                    <input class="input" type="text" id="nombre" name="nombre">
-                    <label for="email">Email</label>
-                    <input class="input" type="email" id="email" name="email">
-                    <label for="mensaje">Mensaje</label>
-                    <textarea class="textarea" id="mensaje" name="mensaje"></textarea>                 
+                    <div class="formulario__cont">
+                        <label for="nombre">Nombre</label>
+                        <input class="input" type="text" id="nombre" name="nombre">
+                    </div>
+                    <div class="formulario__cont">
+                        <label for="email">Email</label>
+                        <input class="input" type="email" id="email" name="email">
+                    </div>
+                    <div class="formulario__cont">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="textarea" id="mensaje" name="mensaje"></textarea>
+                    </div>
                     <button class="btn-enviar" type="submit">Enviar</button>
                 </form>
         </section>
