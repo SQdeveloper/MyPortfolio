@@ -4,6 +4,14 @@ const sobreMiSkills = document.querySelector(".sobreMi__skills");
 const contCards = document.querySelector(".proyectos__contCards");
 const formularioConts = document.querySelectorAll(".formulario__cont");
 const form = document.querySelector(".formulario");
+const menu = document.querySelector(".menu");
+const line = document.querySelectorAll(".menu__line");
+
+menu.addEventListener("click", ()=>{
+    line[0].classList.toggle("active");
+    line[1].classList.toggle("active");
+    line[2].classList.toggle("active");
+});
 
 function show (entries) {
     for(entry of entries){
@@ -28,9 +36,9 @@ function showDirection(entries) {
 
 function showInterleaved(entries) {
     if(entries[0].isIntersecting) {
-        formularioConts[0].style.animation = "show-left 2s both";
-        formularioConts[1].style.animation = "show-right 2s both .5s";
-        formularioConts[2].style.animation = "show-left 2s both 1s";
+        formularioConts[0].style.animation = "show-left 1s both";
+        formularioConts[1].style.animation = "show-right 1s both .5s";
+        formularioConts[2].style.animation = "show-left 1s both 1s";
     }
 }
 
