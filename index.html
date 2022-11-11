@@ -8,24 +8,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="menu-hamburgesa">
+        <h1 class="menuH__name">Jefferson Silva</h1>
+        <!-- <img class="logo__img" src="./assets/jsLogo.png" alt="logo" /> -->
+        <ul class="menuH__ul">
+            <li class="menuH__li">Inicio</li>
+            <li class="menuH__li">Sobre mí</li>
+            <li class="menuH__li">Proyectos</li>
+            <li class="menuH__li">Contacto</li>
+        </ul>
+    </div>
+    <div class="menu">
+        <span class="menu__line line1"></span>
+        <span class="menu__line line2"></span>
+        <span class="menu__line line3"></span>
+    </div>
     <header class="header">
         <h1 class="header__name">JEFFERSON SILVA</h1>
         <nav class="header__nav">
-            <a class="header__a header__a-first" href="">Inicio</a>
-            <a class="header__a header__a-second" href="">Sobre mí</a>
-            <a class="header__a header__a-third" href="">Proyectos</a>
-            <a class="header__a header__a-fourth" href="">Contacto</a>
+            <a class="header__a header__a-first" href="#inicio">Inicio</a>
+            <a class="header__a header__a-second" href="#sobreMi">Sobre mí</a>
+            <a class="header__a header__a-third" href="#proyectos">Proyectos</a>
+            <a class="header__a header__a-fourth" href="#contacto">Contacto</a>
         </nav>
         <h1 class="header__portfolio">PORTFOLIO</h1>
     </header>
 
     <main class="main">
-        <div class="menu">
-            <span class="menu__line line1"></span>
-            <span class="menu__line line2"></span>
-            <span class="menu__line line3"></span>
-        </div>
-        <section class="inicio">
+        <section class="inicio" id="inicio">
             <div class="inicio__contText">
                 <h4 class="inicio__presentacion">Hola mi nombre es</h4>
                 <h1 class="inicio__name">Jefferson Arturo Silva Quinto</h1>
@@ -42,7 +52,7 @@
             </div>
         </section>
         
-        <section class="sobreMi">
+        <section class="sobreMi" id="sobreMi">
             <h1 class="title">Sobre mí</h1>
             <div class="sobreMi__content">
                 <div class="sobreMi__text">
@@ -70,7 +80,7 @@
             </div>
         </section>
 
-        <section class="proyectos">
+        <section class="proyectos" id="proyectos">
             <h1 class="title proyectos__title">Proyectos</h1>
             <div class="proyectos__contCards">
                 <div class="proyectos__contTwo">
@@ -158,7 +168,7 @@
             </div>
         </section>
 
-        <section class="contacto">
+        <section class="contacto" id="contacto">
                 <h1 class="title contacto__title">Contacto</h1>
                 <form class="formulario" action="" method="GET">
                     <div class="formulario__cont">
@@ -185,6 +195,12 @@
             <img class="footer__img" src="./assets/linkedin.png" alt="">
         </picture>  
     </footer>
+
+    <a class="buttonUp" href="#inicio">
+        <svg class="buttonUp__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+        </svg>
+    </a>
     <script src="script.js"></script>
 </body>
 </html>

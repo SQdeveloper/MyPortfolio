@@ -6,11 +6,15 @@ const formularioConts = document.querySelectorAll(".formulario__cont");
 const form = document.querySelector(".formulario");
 const menu = document.querySelector(".menu");
 const line = document.querySelectorAll(".menu__line");
+const contMenu = document.querySelector(".menu-hamburgesa");
 
 menu.addEventListener("click", ()=>{
+    //Activamos la animación para la lineas del menu
     line[0].classList.toggle("active");
     line[1].classList.toggle("active");
     line[2].classList.toggle("active");
+    //Quitamos la transición del menú hamburgesa(el contenido del menú)
+    contMenu.classList.toggle("menu-hamburgesa-active");
 });
 
 function show (entries) {
