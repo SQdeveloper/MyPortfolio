@@ -7,6 +7,25 @@ const form = document.querySelector(".formulario");
 const menu = document.querySelector(".menu");
 const line = document.querySelectorAll(".menu__line");
 const contMenu = document.querySelector(".menu-hamburgesa");
+const menuH__a = document.querySelectorAll(".menuH__a");
+const buttonUp = document.querySelector(".buttonUp");
+
+// document.addEventListener("scroll",()=>{
+//     this.scrollY == 0 ? buttonUp.style.opacity = "0" : buttonUp.style.opacity = "1"; 
+
+// });
+
+/*configuración del menu hamburgesa*/
+menuH__a.forEach(e => {
+    e.addEventListener("click", ()=>{
+        menu.click();
+        //quitamos el color amarillo y el borde inferior de las etiquetas
+        for(let i=0; i<4; i++){
+            menuH__a[i].classList.remove("menuH__a-active");
+        }
+        e.classList.add("menuH__a-active");
+    });
+});
 
 menu.addEventListener("click", ()=>{
     //Activamos la animación para la lineas del menu
