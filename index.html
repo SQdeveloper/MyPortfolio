@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New portfolio</title>
+    <title>Jefferson Silva Quinto</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -173,18 +173,18 @@
 
         <section class="contacto" id="contacto">
                 <h2 class="title contacto__title">Contacto</h2>
-                <form class="formulario" action="" method="GET">
+                <form class="formulario"  action="https://formsubmit.co/jefferson.silvaquinto@gmail.com" method="POST">
                     <div class="formulario__cont">
                         <label for="nombre">Nombre</label>
                         <input class="input" type="text" id="nombre" name="nombre">
                     </div>
                     <div class="formulario__cont">
                         <label for="email">Email</label>
-                        <input class="input" type="email" id="email" name="email">
+                        <input class="input" type="email" id="email" name="email" required>
                     </div>
                     <div class="formulario__cont">
                         <label for="mensaje">Mensaje</label>
-                        <textarea class="textarea" id="mensaje" name="mensaje"></textarea>
+                        <textarea class="textarea" id="mensaje" name="mensaje" required></textarea>
                     </div>
                     <button class="btn-enviar" type="submit">Enviar</button>
                 </form>
@@ -194,16 +194,16 @@
     <footer class="footer">
         <h2 class="footer__text">Redes Sociales</h2>
         <picture class="footer__picture">
-            <img class="footer__img" src="./assets/github.png" alt="">
-            <img class="footer__img" src="./assets/linkedin.png" alt="">
+            <a href="https://github.com/SQdeveloper" target="_blank"><img class="footer__img" src="./assets/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/sqdeveloper/" target="_blank"><img class="footer__img" src="./assets/linkedin.png" alt=""></a>
         </picture>  
     </footer>
 
-    <a class="buttonUp" href="#inicio">
+    <!-- <a class="buttonUp" href="#inicio">
         <svg class="buttonUp__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
         <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
         </svg>
-    </a>
+    </a> -->
     <script src="script.js"></script>
 </body>
 </html>
