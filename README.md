@@ -13,6 +13,7 @@ En esta landing page encontras información sobre mi, como mi eduación, mis pro
 <img width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"/>
 <b>CSS</b>
 </p>
+
 ## Vista previa del proyecto
 Si quieres hechas un vistazo al proyecto, te recomiendo:
 
