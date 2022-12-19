@@ -26,6 +26,9 @@ Si quieres hechas un vistazo al proyecto, te recomiendo:
 * [LinkedIn](https://www.linkedin.com/in/sqdeveloper/)
 * [Porfolio web](https://sqdeveloper.github.io/MyPortfolio)
 
+## Ver en vivo
+* [Enlace GitHub](https://sqdeveloper.github.io/MyPortfolio)
+
 ## Instalación 
 Este proyecto no necesita de instalación.
   
