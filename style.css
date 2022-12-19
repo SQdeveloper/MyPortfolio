@@ -818,7 +818,7 @@ body {
     }
     .inicio__presentacion {
         animation-delay: .2s;
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
     .inicio__name {
         animation-delay: .4s;
@@ -827,13 +827,13 @@ body {
     .inicio__description {
         display: none;
         animation-delay: .6s;
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
     .inicio__redesSociales {
         justify-content: center;
         gap: 2em;
         animation-delay: .6s;
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
     .inicio__contText {
         text-align: center;
@@ -844,6 +844,10 @@ body {
     .inicio__a {
         margin: 0;
     }
+    .enlace__img {
+        width:  35px;
+        height: 35px;
+    }
     .sobreMi__content {
         flex-direction: column;
     }
@@ -853,17 +857,25 @@ body {
     }
     .sobreMi__skills {
         width: 100%;
+        font-size: 2em
     }
     .sobreMi__text {
         width: 100%;
+        font-size: 2em
     }
     .proyectos__contCards {
-        width: 50%;
+        width: 80%;
         gap: 3em;
     }
     .proyectos__card {
         width: 100%;
-        height: 150px;
+        height: 185px;
+    }
+    .card__description {
+        font-size: 1.3em;
+    }
+    .card__up-title {
+        font-size: 1.8em;
     }
     .proyectos__contCards::after {
         content: none;
@@ -889,10 +901,10 @@ body {
         width: 80%;
     }
     .inicio__name {
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
     .proyectos__contCards {
-        width: 70%;
+        width: 85%;
     }
     .proyectos__contCards::after {
         content: none;
@@ -902,6 +914,9 @@ body {
     }
     .title {
         font-size: 4em;
+    }
+    .proyectos__title {
+        font-size: 5em;
     }
     .footer__text {
         position: absolute;
