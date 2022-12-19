@@ -786,10 +786,7 @@ body {
         height: 25px;
     }
     .contacto {
-        font-size: 10px;
-    }
-    .input {
-        height: 1.8em
+        font-size: 13px;
     }
     .textarea {
         height: 10rem;
@@ -918,6 +915,12 @@ body {
     .proyectos__title {
         font-size: 5em;
     }
+    .contacto {
+        font-size: 18px;
+    }
+    .contacto__title {
+        font-size: 3em;
+    }
     .footer__text {
         position: absolute;
         z-index: -1;
@@ -931,10 +934,4 @@ body {
     .inicio__redesSociales {
         animation-delay: .8s;
     }
-}
-
-@media (min-height:625px) and (min-width:1360px) {
-    /* .sobreMi {
-        height: 100vh;
-    } */
 }

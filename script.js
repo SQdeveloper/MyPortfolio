@@ -10,15 +10,10 @@ const contMenu = document.querySelector(".menu-hamburgesa");
 const menuH__a = document.querySelectorAll(".menuH__a");
 const buttonUp = document.querySelector(".buttonUp");
 
-// document.addEventListener("scroll",()=>{
-//     this.scrollY == 0 ? buttonUp.style.opacity = "0" : buttonUp.style.opacity = "1"; 
-
-// });
-
 /*configuración del menu hamburgesa*/
 menuH__a.forEach(e => {
     e.addEventListener("click", ()=>{
-        menu.click();
+        menu.click();//hacemos click en el icono menu para que le contMenu se cierre
         //quitamos el color amarillo y el borde inferior de las etiquetas
         for(let i=0; i<4; i++){
             menuH__a[i].classList.remove("menuH__a-active");
