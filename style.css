@@ -302,7 +302,7 @@ body {
 
 .inicio__contImg {
     width: 250px;
-    height: 200px;
+    height: 250px;
     position: relative;
     animation: start-up 1s;
     animation-delay: 2s;
